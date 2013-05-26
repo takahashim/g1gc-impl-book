@@ -2,6 +2,8 @@
 
 本書は下記のスポンサーのみなさまのサポートによって執筆されました！！　ありがとうございます！！
 
+@<raw>{|latex| \begin{multicols\}{2\} }
+
 @<icon>{yamaz-sama} @<href>{http://pledgie.com/accounts/@yamaz, @yamaz様}
 
 @<icon>{takahashim-sama} @<href>{http://pledgie.com/accounts/@takahashim, @takahashim様}
@@ -84,5 +86,6 @@
 
 @<icon>{tadsaito-sama} @<href>{http://pledgie.com/accounts/tadsaito, Tadashi Saito様}
 
-本書は上記の方々から寄付をいただいて執筆されました。
+@<raw>{|latex| \end{multicols\} }
 
+本書は上記の方々から寄付をいただいて執筆されました。

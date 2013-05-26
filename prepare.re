@@ -61,8 +61,8 @@ OpenJDKは複数のプロジェクトを持っており、プロジェクト分�
 今回はMercurialを使ってHotspotVMプロジェクトのリポジトリのみからソースコードを入手しましょう。
 次のコマンドを入力すると、リポジトリからコードツリーをチェックアウトできます。
 
-//emlist{
-hg clone -r jdk7-b147 http://hg.openjdk.java.net/jdk7/jdk7/hotspot hotspot
+//cmd{
+$ hg clone -r jdk7-b147 http://hg.openjdk.java.net/jdk7/jdk7/hotspot hotspot
 //}
 
 //footnote[mercurial][Mercurial公式サイト：@<href>{http://mercurial.selenic.com/wiki/}]

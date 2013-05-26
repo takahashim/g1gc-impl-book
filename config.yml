@@ -37,8 +37,9 @@ coverimage: cover.jpg
 urnid: http://www.narihiro.info/ebook/g1gc-impl/20111225/
 # CSSファイル (yamlファイルおよびReVIEWファイルを置いたディレクトリにあること)
 stylesheet: stylesheet.css
-texstyle: review
-texdocumentclass: ["jsbook", "oneside"]
+##texstyle: review
+texstyle: tatsumacro
+texdocumentclass: ["jsbook", "oneside,14pt"]
 # 目次として抽出するレベル
 toclevel: 2
 # セクション番号を表示するレベル
@@ -50,6 +51,7 @@ mytoc: true
 # 奥付用
 pubhistory: |
   2012年9月14日 発行
+colophon: true
 # debug
 # debug: false
 debug: true
