@@ -10,10 +10,10 @@ bookname: book
 booktitle: 徹底解剖「G1GC」実装編
 # 著者
 aut: 中村成洋
-prt: www.narihiro.info
-date: 2012-09-14
+prt: 達人出版会
+date: 2013-05-28
 rights: |
-  (C) 2012 Narihiro Nakamura
+  (C) 2012-2013 Narihiro Nakamura
 description: 本書はOpenJDK7のG1GCの実装と、それに関連する技術を解説します。
 # 以下はオプション
 # prt: 出版社
@@ -34,7 +34,7 @@ description: 本書はOpenJDK7のG1GCの実装と、それに関連する技術�
 # 固有IDに使用するドメイン
 coverfile: _cover.html
 coverimage: cover.jpg
-urnid: http://www.narihiro.info/ebook/g1gc-impl/20111225/
+urnid: http://tatsu-zine.com/books/g1gc-impl/
 # CSSファイル (yamlファイルおよびReVIEWファイルを置いたディレクトリにあること)
 stylesheet: stylesheet.css
 ##texstyle: review
@@ -51,6 +51,7 @@ mytoc: true
 # 奥付用
 pubhistory: |
   2012年9月14日 発行
+  2013年5月28日 達人出版会版 v1.0.0 発行
 colophon: true
 # debug
 # debug: false
