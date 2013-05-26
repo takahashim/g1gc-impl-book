@@ -78,6 +78,7 @@ pc(10): return
 HotspotVMは@<list>{TwoDifferentLocalVars_bytecode}を上から順番に実行し、ローカル変数にプリミティブ型と参照型の値を格納します。
 バイトコードは一見難しそうに見えますが、VMの実行フローのイメージと命令セットの意味が多少理解できれば、読み解くのはそれほど難しくありません。
 
+//tsize[18,108]
 //table[mnemonic_mean_1][ニーモニックと命令内容]{
 ニーモニック	命令内容
 ---------------------------
@@ -92,7 +93,7 @@ return		メソッドからvoidをリターンする
 
 @<table>{mnemonic_mean_1}には@<list>{TwoDifferentLocalVars_bytecode}に登場するニーモニックとその命令内容を示しています。
 
-//image[bytecode_flow][バイトコード実行フロー]
+//image[bytecode_flow][バイトコード実行フロー][scale=0.8]
 
 @<img>{bytecode_flow}はバイトコードの実行フローを示しています。
 最終的にローカル変数1に@<code>{1}が格納され、ローカル変数2には@<code>{Object}クラスのインスタンスのアドレスが格納されています。
@@ -393,4 +394,4 @@ void make_handles(oop obj1, oop obj2) {
 
 ===[column]
 
-//indepimage[coffee_with_gc][][scale=5]
+//indepimage[coffee_with_gc][][scale=2.0]
