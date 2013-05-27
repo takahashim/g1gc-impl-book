@@ -87,3 +87,17 @@ OpenJDK 7のメモリ管理周りの実装に興味がある方、『アルゴ�
  * 説明のためのマクロ展開
 
 上記、省略・修正箇所については行番号を明記していません。
+
+== 本書のライセンス
+
+本書は、クリエイティブ・コモンズ・ライセンス「表示 - 継承 2.1 日本（CC BY-SA 2.1 JP）」（@<href>{http://creativecommons.org/licenses/by-sa/2.1/jp/}）の下に提供されています。
+
+//indepimage[by-sa][][html::width=150]
+
+ライセンスに基づいた上での複製、改変、再配布等は自由に行うことができます。
+
+== お問い合わせ先
+
+御意見・御感想・誤植の指摘などは@<href>{http://twitter.com/nari3,@nari3}もしくは@<href>{https://github.com/authorNari/g1gc-impl-book/,authorNari/g1gc-impl-book - GitHub}までお願いします。
+
+ * @<href>{http://www.narihiro.info/g1gc-impl-book/,徹底解剖「G1GC」実装編 Webサイトのトップページ}
