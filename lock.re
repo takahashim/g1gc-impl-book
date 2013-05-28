@@ -374,7 +374,7 @@ class Client {
 また、大域脱出の際（例外発生時など）にモニタのアンロックをし忘れる、といった凡ミスも防げます。
 そのため、HotspotVM内のコードではこの@<code>{MutexLocker}クラスや、Nullチェックの拡張を加えた@<code>{MutexLockerEx}クラスが多用されています。
 
-//pagebreak
+@<raw>{|latex| \pagebreak }
 
 ===[column]アニメキャラのGC的分類
 
